@@ -1,0 +1,141 @@
+
+/* UpperNav css */
+.UpperNav-item{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0.3rem 0rem 0rem 0rem;
+}
+
+.price-section li{
+  padding: 0.5rem 1rem;
+}
+
+.UpperNav-item li{
+    list-style: none;
+}
+
+.NavItem-Section li{
+    padding: 0.5rem 1rem;
+}
+
+.price-section{
+    display: flex;
+}
+
+.NavItem-Section{
+    display: flex;
+}
+
+
+.marginBottom{
+  border-bottom: 1px solid black;
+  padding: 0.3rem 0rem 0.3rem 0rem;
+}
+
+/* --- */
+.hide-upper{
+  display: none;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  left:0;
+}
+
+.nav-item-dropdown .d-content {
+  top: 11%;
+}
+
+.MainNav.sticky .nav-item-dropdown .d-content {
+  top: 100%;
+}
+
+
+
+/* MainNav css ...*/
+.MainNav{
+    padding:0.5rem 0rem 0.5rem 0rem;  
+}
+.MainNav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.MainNav ul li{
+  padding:0rem 2rem 0.8rem 2rem;
+}
+
+.MainNav i{
+    font-size: 12px;
+}
+
+.MainNav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item-dropdown a {
+ cursor: pointer;
+}
+
+
+
+/* dropdown menu */
+
+.d-content{
+  display: none;
+  position: absolute;
+  background: #ddd6d6;
+  width: 100%;
+  left:0;
+  top:11%;
+  z-index: 10;
+}
+
+#child-content{
+  display: flex;
+  justify-content:center;
+  margin-right: 120px;
+}
+
+#child-content-2{
+  display: flex;
+  justify-content:center;
+  align-items: start;
+  margin-right: 380px;
+}
+
+.nav-item-dropdown:hover .d-content{
+  display: block;
+}
+
+
+.child-c-1,
+.child-c-2,
+.child-c-3 {
+  padding: 5px 50px 5px 50px;
+}
+
+.child-c-1 a,
+.child-c-2 a,
+.child-c-3 a {
+  display: block;
+  font-size: 14px;
+}
+
+.child-c-1,
+.child-c-2,
+.child-c-3 span{
+  color: rgb(0, 0, 0);
+}
+
